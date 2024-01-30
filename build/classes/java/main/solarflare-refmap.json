@@ -1,0 +1,74 @@
+{
+  "mappings": {
+    "ekilord/solarflare/mixin/BaseTerrainBlockMixin": {
+      "canStay": "Lorg/betterx/bclib/blocks/BaseTerrainBlock;canStay(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+    },
+    "ekilord/solarflare/mixin/CropBlockInvoker": {
+      "getGrowthSpeed": "method_9830(Lnet/minecraft/class_2248;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+    },
+    "ekilord/solarflare/mixin/CropBlockMixin": {
+      "Lnet/minecraft/server/level/ServerLevel;getRawBrightness(Lnet/minecraft/core/BlockPos;I)I": "Lnet/minecraft/class_3218;method_22335(Lnet/minecraft/class_2338;I)I",
+      "Lnet/minecraft/world/level/LevelReader;canSeeSky(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/class_4538;method_8311(Lnet/minecraft/class_2338;)Z",
+      "canSurvive": "Lnet/minecraft/class_2302;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+      "randomTick": "Lnet/minecraft/class_2302;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+    },
+    "ekilord/solarflare/mixin/FarmBlockMixin": {
+      "canSurvive": "Lnet/minecraft/class_2344;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+    },
+    "ekilord/solarflare/mixin/HoeItemMixin": {
+      "onlyIfAirAbove": "Lnet/minecraft/class_1794;method_36987(Lnet/minecraft/class_1838;)Z"
+    },
+    "ekilord/solarflare/mixin/LanceleafSeedBlockMixin": {
+      "Lorg/betterx/bclib/util/BlocksHelper;upRay(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)I": "Lorg/betterx/bclib/util/BlocksHelper;upRay(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;I)I",
+      "growAdult": "Lorg/betterx/betterend/blocks/LanceleafSeedBlock;growAdult(Lnet/minecraft/class_5281;Lnet/minecraft/class_5819;Lnet/minecraft/class_2338;)V"
+    },
+    "ekilord/solarflare/mixin/SaplingBlockMixin": {
+      "Lnet/minecraft/server/level/ServerLevel;getMaxLocalRawBrightness(Lnet/minecraft/core/BlockPos;)I": "Lnet/minecraft/class_3218;method_22339(Lnet/minecraft/class_2338;)I",
+      "randomTick": "Lnet/minecraft/class_2473;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+    },
+    "ekilord/solarflare/mixin/SpreadingSnowyDirtBlockInvoker": {
+      "canBeGrass": "method_10614(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+    },
+    "ekilord/solarflare/mixin/SpreadingSnowyDirtBlockMixin": {
+      "canBeGrass": "Lnet/minecraft/class_2500;method_10614(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+      "randomTick": "Lnet/minecraft/class_2500;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ekilord/solarflare/mixin/BaseTerrainBlockMixin": {
+        "canStay": "Lorg/betterx/bclib/blocks/BaseTerrainBlock;canStay(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+      },
+      "ekilord/solarflare/mixin/CropBlockInvoker": {
+        "getGrowthSpeed": "method_9830(Lnet/minecraft/class_2248;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+      },
+      "ekilord/solarflare/mixin/CropBlockMixin": {
+        "Lnet/minecraft/server/level/ServerLevel;getRawBrightness(Lnet/minecraft/core/BlockPos;I)I": "Lnet/minecraft/class_3218;method_22335(Lnet/minecraft/class_2338;I)I",
+        "Lnet/minecraft/world/level/LevelReader;canSeeSky(Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/class_4538;method_8311(Lnet/minecraft/class_2338;)Z",
+        "canSurvive": "Lnet/minecraft/class_2302;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+        "randomTick": "Lnet/minecraft/class_2302;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+      },
+      "ekilord/solarflare/mixin/FarmBlockMixin": {
+        "canSurvive": "Lnet/minecraft/class_2344;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+      },
+      "ekilord/solarflare/mixin/HoeItemMixin": {
+        "onlyIfAirAbove": "Lnet/minecraft/class_1794;method_36987(Lnet/minecraft/class_1838;)Z"
+      },
+      "ekilord/solarflare/mixin/LanceleafSeedBlockMixin": {
+        "Lorg/betterx/bclib/util/BlocksHelper;upRay(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)I": "Lorg/betterx/bclib/util/BlocksHelper;upRay(Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;I)I",
+        "growAdult": "Lorg/betterx/betterend/blocks/LanceleafSeedBlock;growAdult(Lnet/minecraft/class_5281;Lnet/minecraft/class_5819;Lnet/minecraft/class_2338;)V"
+      },
+      "ekilord/solarflare/mixin/SaplingBlockMixin": {
+        "Lnet/minecraft/server/level/ServerLevel;getMaxLocalRawBrightness(Lnet/minecraft/core/BlockPos;)I": "Lnet/minecraft/class_3218;method_22339(Lnet/minecraft/class_2338;)I",
+        "randomTick": "Lnet/minecraft/class_2473;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+      },
+      "ekilord/solarflare/mixin/SpreadingSnowyDirtBlockInvoker": {
+        "canBeGrass": "method_10614(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+      },
+      "ekilord/solarflare/mixin/SpreadingSnowyDirtBlockMixin": {
+        "canBeGrass": "Lnet/minecraft/class_2500;method_10614(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z",
+        "randomTick": "Lnet/minecraft/class_2500;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+      }
+    }
+  }
+}

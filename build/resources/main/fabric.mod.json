@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "solarflare",
+	"version": "0.0.1",
+	"name": "Solarflare",
+	"description": "Mod compatibility changes for Solarflare.",
+	"authors": [
+		"ekilord"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/solarflare/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ekilord.solarflare.Solarflare"
+		],
+		"client": []
+	},
+	"mixins": [
+		"solarflare.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"bclib": ">=3.0.14",
+		"wunderlib": ">=1.1.5",
+		"betterend": ">=4.0.11"
+	},
+	"suggests": {
+		"betternether": "*"
+	}
+}

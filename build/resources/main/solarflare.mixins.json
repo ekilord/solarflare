@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "ekilord.solarflare.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BaseTerrainBlockMixin",
+    "CropBlockInvoker",
+    "CropBlockMixin",
+    "FarmBlockMixin",
+    "HoeItemMixin",
+    "LanceleafSeedBlockMixin",
+    "SaplingBlockMixin",
+    "SpreadingSnowyDirtBlockInvoker",
+    "SpreadingSnowyDirtBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

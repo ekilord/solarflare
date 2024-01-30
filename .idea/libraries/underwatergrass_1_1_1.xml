@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="underwatergrass-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../underwatergrass-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/1.20.1/net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2/mappings.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/fabric-loom/1.20.1/net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2/mappings.jar!/" />
+    </SOURCES>
+  </library>
+</component>
