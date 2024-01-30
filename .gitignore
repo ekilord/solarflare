@@ -32,6 +32,10 @@ bin/
 
 run/
 
+# github
+
+.github
+
 # java
 
 hs_err_*.log
@@ -39,3 +43,5 @@ replay_*.log
 *.hprof
 *.jfr
 /run/
+/remappedSrc/
+/build/
