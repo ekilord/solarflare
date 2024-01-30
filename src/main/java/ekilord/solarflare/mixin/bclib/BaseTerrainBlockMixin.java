@@ -1,4 +1,4 @@
-package ekilord.solarflare.mixin;
+package ekilord.solarflare.mixin.bclib;
 
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.block.SnowLayerBlock;

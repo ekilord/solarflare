@@ -1,4 +1,4 @@
-package ekilord.solarflare.mixin;
+package ekilord.solarflare.mixin.minecraft;
 
 
 import net.minecraft.core.BlockPos;
