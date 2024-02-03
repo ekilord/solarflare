@@ -1,19 +1,19 @@
-package ekilord.solarflare.mixin.betterend;
+package ekilord.solarflare.mixin.betterend.plants;
 
 import de.leximon.fluidlogged.mixin.extensions.LevelExtension;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
-import org.betterx.betterend.blocks.LanceleafSeedBlock;
+import org.betterx.betterend.blocks.BulbVineSeedBlock;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Mixin(LanceleafSeedBlock.class)
-public class LanceleafSeedBlockMixin {
-    @Redirect(method = "growAdult", at = @At(value = "INVOKE", target = "Lorg/betterx/bclib/util/BlocksHelper;upRay(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)I"))
-    private int injectGrowAdult(LevelAccessor world, BlockPos pos, int maxDist) {
+@Mixin(BulbVineSeedBlock.class)
+public class BulbVineSeedBlockMixin {
+    @Redirect(method = "growAdult", at = @At(value = "INVOKE", target = "Lorg/betterx/bclib/util/BlocksHelper;downRay(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)I"))
+    private int redirectDownRay(LevelAccessor world, BlockPos pos, int maxDist) {
         int length = 0;
         for (int j = 1; j < maxDist && (world.getFluidState(pos.above(j)).is(FluidTags.WATER)); j++) {
             length++;

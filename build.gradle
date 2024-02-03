@@ -19,6 +19,7 @@ repositories {
 	// for more information about repositories.
 	maven { url 'https://jitpack.io' }
 	maven { url 'https://cursemaven.com' }
+	maven { url 'https://api.modrinth.com/maven' }
 }
 
 loom {
@@ -50,9 +51,9 @@ dependencies {
 	modImplementation "com.github.quiqueck:BCLib:${project.bclib_version}"
 	modImplementation "com.github.quiqueck:WunderLib:${project.wunderlib_version}"
 	include "com.github.quiqueck:WunderLib:${project.wunderlib_version}"
-	modImplementation "curse.maven:betterend-413596:4971487"
-
-
+	modImplementation "maven.modrinth:betterend:4.0.11"
+	modImplementation "maven.modrinth:yacl:3.2.1+1.20-fabric"
+	modImplementation "maven.modrinth:fluidlogged:2.0.1-beta.2"
 }
 
 processResources {

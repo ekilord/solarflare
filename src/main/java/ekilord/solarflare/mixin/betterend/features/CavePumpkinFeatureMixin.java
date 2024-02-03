@@ -1,4 +1,4 @@
-package ekilord.solarflare.mixin.betterend;
+package ekilord.solarflare.mixin.betterend.features;
 
 import de.leximon.fluidlogged.mixin.extensions.LevelExtension;
 import net.minecraft.core.BlockPos;
