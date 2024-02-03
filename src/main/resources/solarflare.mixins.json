@@ -15,6 +15,7 @@
     "minecraft.CropBlockMixin",
     "minecraft.FarmBlockMixin",
     "minecraft.HoeItemMixin",
+    "minecraft.LivingEnityMixin",
     "minecraft.SaplingBlockMixin",
     "minecraft.SpreadingSnowyDirtBlockInvoker",
     "minecraft.SpreadingSnowyDirtBlockMixin"
