@@ -18,10 +18,16 @@
 		"main": [
 			"ekilord.solarflare.Solarflare"
 		],
-		"client": []
+		"client": [
+			"ekilord.solarflare.SolarflareClient"
+		]
 	},
 	"mixins": [
-		"solarflare.mixins.json"
+		"solarflare.mixins.json",
+		{
+			"config": "solarflare.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",

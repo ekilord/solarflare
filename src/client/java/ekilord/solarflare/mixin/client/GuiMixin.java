@@ -19,8 +19,9 @@ public class GuiMixin {
         this.minecraft = minecraft;
     }
 
-    @Inject(method = "renderPlayerHealth", at = @At("TAIL"))
+    @Inject(method = "renderPlayerHealth", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/player/Player;getAirSupply()I", shift = At.Shift.AFTER), cancellable = true)
     public void injectRenderPlayerHealth(GuiGraphics guiGraphics, CallbackInfo ci) {
-        System.out.println("ez utana");
+        this.minecraft.getProfiler().pop();
+        ci.cancel();
     }
 }
