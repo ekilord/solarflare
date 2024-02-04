@@ -1,4 +1,4 @@
-package ekilord.solarflare.hud;
+package ekilord.solarflare.gui.sampleGui.hud;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import dev.boxadactle.boxlib.math.geometry.Dimension;
@@ -6,9 +6,14 @@ import dev.boxadactle.boxlib.math.geometry.Rect;
 import dev.boxadactle.boxlib.math.geometry.Vec2;
 import dev.boxadactle.boxlib.util.ClientUtils;
 import dev.boxadactle.boxlib.util.RenderUtils;
+import ekilord.solarflare.gui.sampleGui.config.ModConfig;
+import ekilord.solarflare.gui.sampleGui.CoordinatesDisplay;
+import ekilord.solarflare.gui.sampleGui.ModUtil;
+import ekilord.solarflare.gui.sampleGui.position.Position;
+import ekilord.solarflare.gui.sampleGui.renderer.UnknownRendererException;
 import net.minecraft.client.gui.GuiGraphics;
 
-public class OxygenMeter {
+public class Hud {
 
     Rect<Integer> size = new Rect<>(0, 0, 0, 0);
 

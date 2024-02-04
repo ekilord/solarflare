@@ -3,7 +3,8 @@
 	"package": "ekilord.solarflare.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"GuiMixin"
+		"GuiMixin",
+		"OverlayMessageTimeAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
